@@ -1,0 +1,7 @@
+{
+  "name": "fries-bag",
+  "version": "0.1.0",
+  "description": "$fries-bag <prompt> re-sends <prompt> every time Codex stops, so it never stops.",
+  "license": "MIT",
+  "hooks": "./hooks/codex-hooks.json"
+}

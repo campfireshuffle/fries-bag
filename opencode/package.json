@@ -1,0 +1,16 @@
+{
+  "name": "opencode-fries-bag",
+  "version": "0.1.0",
+  "description": "/fries-bag <prompt> re-sends <prompt> every time opencode stops, so it never stops.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@opencode/plugin": "^2.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

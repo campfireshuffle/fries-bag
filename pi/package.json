@@ -1,0 +1,10 @@
+{
+  "name": "pi-fries-bag",
+  "version": "0.1.0",
+  "description": "/fries-bag <prompt> re-sends <prompt> every time pi stops, so it never stops.",
+  "license": "MIT",
+  "type": "module",
+  "keywords": ["pi-package"],
+  "pi": { "extensions": ["./extensions/fries-bag.ts"] },
+  "peerDependencies": { "@earendil-works/pi-coding-agent": "*" }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "fries-bag",
+  "owner": { "name": "campfireshuffle" },
+  "plugins": [
+    {
+      "name": "fries-bag",
+      "source": "./plugin",
+      "description": "/fries-bag <prompt> re-sends <prompt> every time Claude stops, so it never stops."
+    }
+  ]
+}

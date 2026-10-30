@@ -1,0 +1,11 @@
+{
+  "name": "fries-bag",
+  "plugins": [
+    {
+      "name": "fries-bag",
+      "source": { "source": "local", "path": "./plugin" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

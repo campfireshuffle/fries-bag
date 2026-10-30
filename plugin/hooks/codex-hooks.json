@@ -1,0 +1,13 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      { "hooks": [{ "type": "command", "command": "python3 \"${PLUGIN_ROOT}/hooks/fries_bag.py\"", "timeout": 10 }] }
+    ],
+    "Stop": [
+      { "hooks": [{ "type": "command", "command": "python3 \"${PLUGIN_ROOT}/hooks/fries_bag.py\"", "timeout": 10 }] }
+    ],
+    "Interrupt": [
+      { "hooks": [{ "type": "command", "command": "python3 \"${PLUGIN_ROOT}/hooks/fries_bag.py\"", "timeout": 3 }] }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "fries-bag",
+  "private": true,
+  "keywords": ["pi-package"],
+  "pi": { "extensions": ["./pi/extensions/fries-bag.ts"] }
+}
